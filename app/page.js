@@ -209,7 +209,10 @@ export default function Home() {
               purifier installation, maintenance, and repair services. Your
               health is our priority.
             </p>
-            <button className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-10 py-5 rounded-xl font-bold text-lg hover:from-indigo-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 hover:shadow-xl pulse-button">
+            <button
+              className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-10 py-5 rounded-xl font-bold text-lg hover:from-indigo-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 hover:shadow-xl pulse-button"
+              onClick={() => setShowForm(true)}
+            >
               Book a Service
             </button>
           </div>
