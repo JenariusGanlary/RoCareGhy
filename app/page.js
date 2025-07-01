@@ -925,7 +925,10 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-border mt-10 pt-6 text-center text-sm text-muted-foreground">
-            <p>&copy; 2024 RO Care Guwahati. All rights reserved.</p>
+            <p>
+              &copy; {new Date().getFullYear()} RO Care Guwahati. All rights
+              reserved.
+            </p>
           </div>
         </div>
       </footer>
