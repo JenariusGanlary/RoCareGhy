@@ -166,7 +166,10 @@ export default function Home() {
             </nav>
             {/* Book Now Button */}
             <div className="hidden md:block">
-              <button className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-6 py-3 rounded-lg font-medium hover:from-indigo-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+              <button
+                className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-6 py-3 rounded-lg font-medium hover:from-indigo-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
+                onClick={() => setShowForm(true)}
+              >
                 Book Now
               </button>
             </div>
