@@ -62,7 +62,7 @@ export default function TestimonialsCarousel() {
                 />
               </svg>
               <p className="text-lg md:text-xl text-foreground font-medium mb-6 text-center">
-                "{t.text}"
+                &quot;{t.text}&quot;
               </p>
               <div className="flex flex-col items-center">
                 <span className="font-semibold text-indigo-700">{t.name}</span>
